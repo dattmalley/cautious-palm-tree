@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(
+      to top,
+      #fcc5e4 0%,
+      #fda34b 15%,
+      #ff7882 35%,
+      #c8699e 52%,
+      #7046aa 71%,
+      #0c1db8 87%,
+      #020f75 100%
+    );
+    margin: 10px 100px;
+    font-family: sans-serif;
+  }
+  
+  background-image: .headerPic {
+    height: 96px;
+  }
+  
+  #bio {
+    display: flex;
+    width: 100%;
+    height: 240px;
+    color: rgba(255, 255, 255, 0.725);
+  }
+  
+  #bioChoose {
+    width: 100%;
+  }
+  
+  #bio > img {
+    height: 240px;
+    border-radius: 50%;
+  }
+  
+  #nameDate {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  h2,
+  p {
+    margin: 0;
+  }
+  
+  #chooseList {
+    margin: 0px 15px;
+  }
+  
+  #tech {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 240px;
+    /*   background-color: #4982a6; */
+  }
+  
+  figure {
+    margin: 1em;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  figure > img {
+    height: 180px;
+  }
+  
+  figcaption {
+    max-width: 200px;
+    text-algin: center;
+    background-color: rgba(245, 245, 245, 0.7);
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: -18px;
+    padding: 10px;
+  }
+  
+  #interest {
+    width: auto;
+    height: 150px;
+    /*   background-color: #a6746f; */
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 23px;
+  }
+  
+  #excitedAbout {
+    padding: 0 10px;
+    /*   background-color: #bfb0a3; */
+    color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .centered {
+    text-align: center;
+    color: #bfb0a3;
+  }
+  
+  footer p {
+    color: black;
+  }
+  
